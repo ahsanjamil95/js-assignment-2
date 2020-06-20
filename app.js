@@ -16,4 +16,3 @@ document.write(mobileModel+"<br>");
 document.write("Length of user Input is: "+mobileModel.length);*/
 
 // 03
-

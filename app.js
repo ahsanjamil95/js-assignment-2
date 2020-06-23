@@ -170,12 +170,56 @@ document.write("Ceil Value: "+Math.ceil(num));*/
 
 // 03
 
-var num = -4;
-document.write("The absolute value of "+num+" is: "+Math.abs(num)+"<br>");
+/*var num = -4;
+document.write("The absolute value of "+num+" is: "+Math.abs(num)+"<br>");*/
 
 
+// 04
+
+/*var rndNum=Math.random();
+var rndNum1=Math.random();
+document.write("Random dise value: "+Math.random(rndNum)+"<br>");
+document.write("Random dise value: "+Math.random(rndNum1)+"<br>");*/
+
+// 05
+
+/*var userOne = prompt("Head User");
+var userTwo = prompt("Tail User");
+
+var toss = Math.random * 2;
+var floor = Math.floor(toss);
+
+if(floor===0){
+    document.write("Head "+userOne+ " win the toss");
+}else{
+    document.write("Tail "+userTwo+ " win the toss");
+}
+*/
 
 
+// 06
 
+/*var num = Math.random() * (100 - 1) + 1;
+document.write(Math.round(num))*/
 
+// 07
 
+/*var userWeight = prompt("Enter Your Weight");
+
+if(userWeight === "50" || userWeight === "50kgs" || userWeight === "50.2kgs" || userWeight === "50.2kilograms"){
+    document.write("The weight of user is " + userWeight);
+}else{
+    document.write("The weight not exist");
+}*/
+
+// 08
+
+/*var userInput = prompt("Enter Value Range 1-10");
+var num = Math.random() * (10 - 1) + 1;
+document.write(Math.round(num))
+document.write(userInput)
+if(userInput === num){
+    document.write("congratulate win the toss");
+}else{
+    document.write("Try Again");
+}*/

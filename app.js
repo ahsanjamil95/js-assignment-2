@@ -149,3 +149,33 @@ var findWord = para.match(/the/g).length;
 document.write("The quick brown fox jumps over the lazy dog There are "+findWord+" occurence of word the");*/
 
 /* Chapter 25 - 30 */
+
+// 01
+
+/*var num = 3.45214;
+document.write("Number: "+(num)+"<br>");
+document.write("Round of value: "+Math.round(num)+"<br>");
+document.write("Floor value: "+Math.floor(num)+"<br>");
+document.write("Ceil Value: "+Math.ceil(num));*/
+
+
+// 02
+
+/*var num = -2.673;
+document.write("Number: "+(num)+"<br>");
+document.write("Round of value: "+Math.round(num)+"<br>");
+document.write("Floor value: "+Math.floor(num)+"<br>");
+document.write("Ceil Value: "+Math.ceil(num));*/
+
+
+// 03
+
+var num = -4;
+document.write("The absolute value of "+num+" is: "+Math.abs(num)+"<br>");
+
+
+
+
+
+
+

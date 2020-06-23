@@ -1,5 +1,5 @@
 // JavaScript Document
-/* Chapter 21 */
+/* Chapter 21 - 25 */
 
 // 01
 
@@ -29,7 +29,7 @@ document.write("index of "+ userInput+": " +countName.search(userInput));*/
 document.write("String: " +msgName+"<br>");
 
 document.write("Last index of : " +msgName.lastIndexOf() ); */
- 
+
 // 05
 
 /*var countName = "pakistani";
@@ -92,11 +92,60 @@ document.write("Result: "+ newNum+"<br>");*/
 
 // 13
 
-var userName = "@";
-if(userName != '@' && userName != "." && userName != "," && userName != "!"){
-	document.write("User Name is : "+ userName); 
-   }
-else
-   { 
-	document.write("Enter Valid User name");
-   }
+/*var userInput = prompt("User NAme");
+ var restric = /[!@,.]/;
+        var isValid = restric.test(userInput);
+        if (isValid) {
+            alert("Enter Valid User Name.");
+        } else {
+            alert("User Name is: "+ userInput);
+        }
+    */
+
+// 14
+
+/*var food = ["cake", "apple pie", "cookie", "chips"," patties"]
+var userFood = prompt("Enter Food name");
+
+if(food.indexOf(userFood) != -1){
+    document.write("Yes available in "+ food.indexOf(userFood));
+}else{
+     document.write("No available");
+}*/
+
+// 15
+
+/*var userInput = prompt("User Password");
+ var restric = /[A-Za-z0-9]/;
+        var isValid = restric.test(userInput);
+        if (!isValid) {
+            alert("Enter Valid Password.");
+        } else {
+            alert("User Name is: "+ userInput);
+        }*/
+
+// 16
+
+/*var uniName = "University of Karachi";
+
+var newUni = uniName.split("");
+    
+for( var i=0; i<newUni.length; i++){
+    
+    document.write(newUni[i]+"<br>");
+    
+}*/
+
+
+// 17
+/*var userInput = "pakistan";
+document.write(userInput.charAt(userInput.length - 1));*/
+
+
+// 18
+
+/*var para = "The quick brown fox jumps over the lazy dog";
+var findWord = para.match(/the/g).length;
+document.write("The quick brown fox jumps over the lazy dog There are "+findWord+" occurence of word the");*/
+
+/* Chapter 25 - 30 */
